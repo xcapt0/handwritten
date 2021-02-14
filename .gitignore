@@ -1,3 +1,5 @@
 /.idea
 /Cursive.fcp
 /__pycache__
+/setup.cfg
+/setup.py
