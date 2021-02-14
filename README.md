@@ -6,41 +6,22 @@ For those who are too lazy to write lectures by hand, oops, it's me. My own hand
 
 Here is an example in English (left) and in Russian (right). English isn't my native language, so I write like a robot :)
 
-<img src="./docs/assets/example-en.jpg" alt="drawing" width="400"/><img src="./docs/assets/example-ru.jpg" alt="drawing" width="400"/>
+<img src="https://github.com/xcapt0/handwritten/blob/master/docs/assets/example-en.jpg?raw=true" alt="drawing" width="400"/><img src="https://github.com/xcapt0/handwritten/blob/master/docs/assets/example-ru.jpg?raw=true" alt="drawing" width="400"/>
 
 In Russian looks more real, at least the lecturer didn't notice.
 
 ## Getting started
 
-### Download project
-
-First you need to download the zip file to your text files folder. Structure will looks like:
+### Install project
 
 ```
-project
-|
-└───handwritten
-│   │   .gitignore
-│   │   A4.png
-|   |   Cursive.ttf
-|   |   README.md
-|   |   __init__.py
-|   |   handwritten.py
-│   │
-│   └───docs
-|       └───assets
-│           │   example-en.jpg
-│           │   example-ru.jpg
-│           
-│   
-└───|   your-text-file.txt (your-text-file.docx)
-    |   python.py 
+pip install handwritten-image
 ```
 
 ### Setup
 
 ```python
-from handwritten.handwritten import HandWrite
+from handwritten_image import HandWrite
 hand = HandWrite()
 ```
 
