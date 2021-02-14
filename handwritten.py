@@ -119,7 +119,7 @@ class HandWrite:
 				for line in page:
 					x = random.randint(40, 55)
 					y += random.randint(52, 55)
-					row = re.sub(r'[«»]', '"', '  '.join(line))
+					row = re.sub(r'[«»“”]', '"', '  '.join(line))
 					row = re.sub(r'[–—]', '-', row)
 					rotated = self._rotate_line(row, font)
 					file.paste((98, 64, 179), box=(x, y), mask=rotated)
