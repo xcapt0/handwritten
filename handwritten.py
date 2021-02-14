@@ -133,7 +133,7 @@ class HandWrite:
 
 				self._save_image(file, path)
 
-	def to_txt(self, path: str, edit: bool = False, random_order: bool = True,
+	def to_txt(self, path: str, edit: bool = False, random_select: bool = True,
 			   save_path: Optional[str] = None) -> str:
 		"""
 		Extracts text from docx, doc, or txt file
@@ -145,7 +145,7 @@ class HandWrite:
 			Saves formatted txt file. If no directory is specified, it'll be saved
 			to the folder with the python file
 
-		random_order:
+		random_select:
 			If it needs a random selection of paragraphs. If there are less than 10
 			paragraphs, there is a random selection of sentences.
 
@@ -165,7 +165,7 @@ class HandWrite:
 
 		processed_text = re.sub(r'\n+', '\n', text)
 
-		if random_order:
+		if random_select:
 			if processed_text.count('\n') < 10:
 				splitted = processed_text.split('.')
 			else:
@@ -198,20 +198,20 @@ class HandWrite:
 		return final_text
 
 	def convert_to_image(self, file_path: str, save_dir: Optional[str] = None,
-						 random_order: bool = True) -> None:
+						 random_select: bool = True) -> None:
 		"""
 		Converts docx, doc, or txt file into images with handwritten fonts
 
 		file_path:
 			Specify file path, for example: /script_dir/file.docx
 
-		random_order:
+		random_select:
 			If it needs a random selection of paragraphs. If there are less than 10
 			paragraphs, there is a random selection of sentences.
 
 		save_dir:
 			Folder path to save images
 		"""
-		text = self.to_txt(file_path, random_order=random_order)
+		text = self.to_txt(file_path, random_select=random_select)
 		pages = self._pages_list(text)
 		self._render(pages, save_dir)
