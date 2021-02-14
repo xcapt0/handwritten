@@ -1,6 +1,6 @@
 /.idea
-/Cursive.fcp
+/dist
+/handwritten_image/Cursive.fcp
 /__pycache__
-/setup.cfg
-/setup.py
-/__init__.py
+/handwritten_image/__pycache__
+/handwritten_image.egg-info
