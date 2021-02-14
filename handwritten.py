@@ -127,7 +127,7 @@ class HandWrite:
 				image_name = '{} {} {}.jpg'.format('hand', datetime.now().date(), i)
 
 				if not save_dir:
-					path = os.path.join(os.path.dirname(__file__), image_name)
+					path = os.path.join(os.path.dirname(''), image_name)
 				else:
 					path = os.path.join(save_dir, image_name)
 
