@@ -18,13 +18,6 @@ In Russian looks more real, at least the lecturer didn't notice.
 pip install handwritten-image
 ```
 
-### Setup
-
-```python
-from handwritten_image import HandWrite
-hand = HandWrite()
-```
-
 ### Simple Example
 
 ```python
