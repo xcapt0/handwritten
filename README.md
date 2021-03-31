@@ -1,6 +1,6 @@
 # Handwritten
 
-For those who are too lazy to write lectures by hand, oops, it's me. My own handwritten font is used here. Distance learning has dramatically increased the number of lectures that had to be written by hand. So I wrote this small program.
+For those who are too lazy to write lectures by hand. My own handwritten font is used here. Distance learning has dramatically increased the number of lectures that had to be written by hand. So I wrote this small program.
 
 ## Example
 
