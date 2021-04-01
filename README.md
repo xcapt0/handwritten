@@ -4,11 +4,7 @@ For those who are too lazy to write lectures by hand. My own handwritten font is
 
 ## Example
 
-Here is an example in English (left) and in Russian (right). English isn't my native language, so I write like a robot :)
-
-<img src="https://github.com/xcapt0/handwritten/blob/master/docs/assets/example-en.jpg?raw=true" alt="drawing" width="400"/><img src="https://github.com/xcapt0/handwritten/blob/master/docs/assets/example-ru.jpg?raw=true" alt="drawing" width="400"/>
-
-In Russian looks more real, at least the lecturer didn't notice.
+<img src="https://github.com/xcapt0/handwritten/blob/master/docs/assets/example-ru.jpg?raw=true" alt="drawing" width="400"/>
 
 ## Getting started
 
