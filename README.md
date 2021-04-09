@@ -3,7 +3,7 @@
 For those who are too lazy to write lectures by hand. My own handwritten font is used here. Distance learning has dramatically increased the number of lectures that had to be written by hand. So I wrote this small program.
 
 ## Example
-
+In Russian
 <img src="https://github.com/xcapt0/handwritten/blob/master/docs/assets/example-ru.jpg?raw=true" alt="drawing" width="400"/>
 
 ## Getting started
