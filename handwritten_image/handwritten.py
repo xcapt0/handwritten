@@ -163,7 +163,8 @@ class HandWrite:
 		else:
 			raise ValueError('Wrong file type! You can only use .doc, .docx, .txt format')
 
-		processed_text = re.sub(r'\n+', '\n', text)
+		processed_text = re.sub(r'\n{2,}', '\n\n', text)
+		processed_text = re.sub(r'\n{1}', '\n', processed_text)
 
 		if random_select:
 			if processed_text.count('\n') < 10:
