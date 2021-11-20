@@ -22,7 +22,7 @@ hand = HandWrite()
 hand.convert_to_image('your-text-file.docx', random_select=False)
 ```
 
-## Convert to a handwritten images
+## Convert to handwritten images
 
 You can easily convert your text to handwritten text using this method
 
